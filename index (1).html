@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube MP3 Downloader</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>YouTube MP3 Downloader</h1>
+        <p>Convert YouTube videos to high-quality MP3 files instantly</p>
+      </header>
+
+      <main>
+        <label for="yt-url" class="label">YouTube URL:</label>
+        <input
+          type="text"
+          id="yt-url"
+          placeholder="Paste YouTube link here..."
+        />
+        <button id="convert-btn" class="button">Convert</button>
+
+        <div id="loading" class="loading hidden">
+          <p id="loading-text">Preparing your file...</p>
+        </div>
+
+        <button id="refresh-btn" class="button secondary hidden">
+          Convert Another
+        </button>
+      </main>
+
+      <footer>
+        <p>Created by Hardik Joshi</p>
+        <div class="social-links">
+          <a href="https://instagram.com/hardik_joshi" target="_blank"
+            >Instagram</a
+          >
+          |
+          <a href="https://twitter.com/hardik_joshi" target="_blank">Twitter</a>
+          |
+          <a href="https://github.com/hardik-joshi" target="_blank">GitHub</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
